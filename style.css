@@ -75,11 +75,12 @@ section > div {
 button {
     font-size: 18px;
     width: 280px;
-    margin: 10px;
+    margin: 5px;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 20px 40px;
     cursor: pointer;
+    transition: all 200ms ease;
 }
 
 .btn-primary {
@@ -114,7 +115,11 @@ button {
     margin-right: 10px;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 768px) {
+
+    header nav {
+        width: 98%;
+    }
 
     #main-info {
         display: none;
